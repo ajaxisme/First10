@@ -1,0 +1,17 @@
+Request
+
+POST /v3/oauth/request HTTP/1.1
+Host: getpocket.com
+Content-Type: application/json; charset=UTF-8
+X-Accept: application/json
+
+{"consumer_key":"1234-abcd1234abcd1234abcd1234",
+"redirect_uri":"pocketapp1234:authorizationFinished"}
+
+Response
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+Status: 200 OK
+
+{"code":"dcba4321-dcba-4321-dcba-4321dc"}
